@@ -1,0 +1,22 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    background-color: #5988FF;
+    color: #D6FF6B;
+    text-decoration-color: red;
+    
+}
+
+h1 {
+    color: rgb(238, 255, 0);
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+}
+@keyframes color-change {
+  0%   { color: rgb(238, 255, 0); }
+  50%  { color: red; }
+  100% { color: rgb(238, 255, 0); }
+}
+h1:hover {
+  animation: color-change 3s infinite;
+}
